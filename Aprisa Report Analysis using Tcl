@@ -1,6 +1,6 @@
 
-set a [gets stdin ]
-set b [exec realpath $a]
+#set a [gets stdin ]
+set b [exec realpath report.txt]
 
 puts "$b";
 
